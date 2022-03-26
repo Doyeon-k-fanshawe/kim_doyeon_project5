@@ -1,13 +1,13 @@
-# Project 5
+# Project 3
 
 ## Making a web page
-TODO: Create a responsive boxed out version of one of the wireframes you created for the final integrated assignment.
+TODO: Create the following: A finished/finalized design file based on 2 wireframes, a Boxed Design File or layer for each page, HTML and CSS Box Design and a text file with box info.
 
 ## Contributing
 
     1. Create folders and files
     2. Create wireframe
-    3. Create well-build one page responsive HTML and CSS
+    3. Create well-build 2 pages HTML and CSS
     4. Push to the branch: git push origin my-new-feature
     5. Submit a pull request :D
 
