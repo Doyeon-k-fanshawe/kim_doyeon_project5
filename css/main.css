@@ -1,0 +1,528 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General */
+
+@media screen and (max-width: 800px) {
+
+  .allElement {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    background: #000;
+    text-align: center;
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+
+  /* Header */
+
+  #head {
+    background-color: gray;
+  }
+
+  #headIcons {
+    display: none;
+  }
+
+  #headNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  #headNav .mainNavi {
+    display: none;
+  }
+
+  #headNav .mainLogo {
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #headNav .mainLogo a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+  }
+
+  #headNav .SNSIcons {
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    margin-top: 15px;
+  }
+
+  #headNav .SNSIcons a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 30px;
+    color: white;
+    padding-left: 8px;
+  }
+
+  /* hero */
+
+  #heroImage p {
+    width: 100%;
+    height: 250px;
+    line-height: 500px;
+  }
+
+  /* Page Main, Section 1 */
+  #fan {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: lightgray;
+  }
+
+  #fan h2 {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .fanBeer1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fanBeer2 {
+    display: none;
+  }
+
+  .fanBeer1 p {
+    width: 150px;
+    height: 450px;
+    line-height: 450px;
+    margin-bottom: 10px;
+  }
+
+  .fanBeerText1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fanBeerText2 {
+    display: none;
+  }
+
+  .fanBeerText1 p {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  /* Page Main, Section 2 */
+
+  #openCap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #openCap h2 {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .opening p {
+    width: 100%;
+    height: 300px;
+    line-height: 300px;
+    margin-bottom: 1em;
+  }
+
+  .map p {
+    width: 100%;
+    height: 250px;
+    line-height: 250px;
+    margin-bottom: 2em;
+  }
+
+  /* Footer */
+
+  #mainFooter {
+    background-color: gray;
+  }
+
+  #smallFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footLogo {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 30px 0 5px 30px;
+  }
+
+  .footLogo a {
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 2px;
+  }
+
+  .footNavi {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 30px 30px 5px 0px;
+  }
+
+  .footNavi a {
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 2px;
+  }
+
+  .footerLeft p {
+    display: none;
+  }
+
+  .footerRight p {
+    display: none;
+  }
+
+  .copyright {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  /* General Elements */
+  #container {
+    margin: 0 auto;
+  }
+
+  .allElement {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    background: #000;
+    text-align: center;
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+  .marginT {
+    margin-top: 5em;
+  }
+
+  .marginT2 {
+    margin-top: 3em;
+  }
+
+  .marginBt {
+    margin-bottom: 5em;
+  }
+
+  .marginBt2 {
+    margin-bottom: 3em;
+  }
+  .marginBt3 {
+    margin-bottom: 1em;
+  }
+
+  .marginTb {
+    margin-top: 8em;
+    margin-bottom: 8em;
+  }
+
+  .marginTb2 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .bgColor {
+    background-color: skyblue;
+  }
+
+  /* Header */
+
+  #head {
+    background-color: gray;
+  }
+
+  #headIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .headSNS {
+    font-family: 'Roboto', sans-serif;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 30px;
+  }
+
+  .headSNS a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .lastIcon {
+    font-family: 'Roboto', sans-serif;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .lastIcon a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #headNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  #headNav .mainNavi {
+    font-family: 'Roboto', sans-serif;
+    width: 60px;
+    height: 100px;
+    text-align: center;
+  }
+
+  #headNav .mainNavi a {
+    line-height: 120px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+  #headNav .mainLogo {
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  #headNav .mainLogo a {
+    line-height: 120px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+  #headNav .SNSIcons {
+    display: none;
+  }
+
+  /* hero */
+
+  #heroImage p {
+    width: 100%;
+    height: 300px;
+    line-height: 600px;
+  }
+
+  /* Page Main, Section 1 */
+  #fan {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    background-color: gray;
+  }
+
+  #fan h2 {
+    width: 45%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 1.5em;
+    margin-left: 280px;
+    font-size: 40px;
+  }
+
+  #fanFav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fanBeer1 p {
+    width: 230px;
+    height: 250px;
+    line-height: 500px;
+    margin-right: 15px;
+  }
+
+  .fanBeer2 p {
+    width: 230px;
+    height: 250px;
+    line-height: 500px;
+    margin-right: 15px;
+  }
+
+  #fanFavText {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .fanBeerText1 p {
+    width: 230px;
+    height: 40px;
+    line-height: 80px;
+    margin-right: 10px;
+  }
+
+  .fanBeerText2 p {
+    width: 230px;
+    height: 40px;
+    line-height: 80px;
+    margin-right: 10px;
+  }
+
+  /* Page Main, Section 2 */
+
+  #openCap {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+  }
+
+  #openCap h2 {
+    width: 45%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 1.5em;
+    font-size: 40px;
+  }
+
+  .opening p {
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    margin-bottom: 2em;
+  }
+
+  .map p {
+    width: 100%;
+    height: 500px;
+    line-height: 500px;
+    margin-bottom: 5em;
+  }
+
+  /* Footer */
+
+  #mainFooter {
+    background-color: gray;
+  }
+
+  #footerNav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .footerLeft p {
+    width: 180px;
+    height: 350px;
+    line-height: 350px;
+  }
+
+  .footerRight p {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  .footerLeft a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .copyright {
+    display: flex;
+    height: 50px;
+  }
+
+  .copyright p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px
+  }
+
+  #smallFooter {
+    display: none
+  }
+
+}
